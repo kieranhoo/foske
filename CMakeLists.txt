@@ -8,6 +8,7 @@ find_package(GLUT REQUIRED)
 
 include_directories(include)
 include_directories(src)
+
 add_executable(graphix cmd/main.cpp include/common.h src/common.cpp)
 
 target_link_libraries(graphix ${OPENGL_LIBRARIES})
