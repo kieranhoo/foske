@@ -1,6 +1,7 @@
-#include "common.h"
+#include "app.h"
 
-
-int main(int argc, const char **argv){
-    hello_world();
+int main(int argc, char **argv) {
+    App * graphix = new App(&argc, argv);
+    graphix->Run();
+    delete graphix;
 }
