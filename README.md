@@ -1,2 +1,2 @@
-# Simulatex
+# Foske
 Simple Engine @ HCMUT
