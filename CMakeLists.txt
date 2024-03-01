@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.25)
-project(graphix)
+project(foske)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -10,17 +10,11 @@ include_directories(include)
 include_directories(src)
 
 add_executable(
-        graphix
+        foske
         cmd/main.cpp
         include/common.h src/common.cpp
-        include/app.h src/app.cpp cmd/labs.cpp)
+        include/app.h src/app.cpp)
 
-add_executable(
-        onlabs
-        cmd/labs.cpp
-        include/onlabs/common.h src/onlabs/common.cpp
-        include/onlabs/first.h src/onlabs/first.cpp)
-
-target_link_libraries(graphix ${OPENGL_LIBRARIES})
-target_link_libraries(graphix ${GLUT_LIBRARIES})
-target_link_libraries(graphix -lopengl32 -g -lfreeglut)
+target_link_libraries(foske ${OPENGL_LIBRARIES})
+target_link_libraries(foske ${GLUT_LIBRARIES})
+target_link_libraries(foske -lopengl32 -g -lfreeglut)

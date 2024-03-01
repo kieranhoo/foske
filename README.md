@@ -1,2 +1,2 @@
-# Graphix
-Computer graphics course @ HCMUT
+# Foske
+Simple Engine @ HCMUT

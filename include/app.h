@@ -2,8 +2,8 @@
 // Created by duchungho on 14/01/2024.
 //
 
-#ifndef GRAPHIX_APP_H
-#define GRAPHIX_APP_H
+#ifndef FOSKE_APP_H
+#define FOSKE_APP_H
 
 class App {
 private:
@@ -20,4 +20,4 @@ public:
     void Run();
 };
 
-#endif //GRAPHIX_APP_H
+#endif //FOSKE_APP_H
